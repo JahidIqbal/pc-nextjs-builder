@@ -1,7 +1,7 @@
 import RootLayout from "@/components/Layout/RootLayout";
 import Banner from "@/components/UI/Banner";
 import Head from "next/head";
-const HomePage = () => {
+const HomePage = ({allProducts}) => {
   return (
     <div>
       <Head>
@@ -19,4 +19,17 @@ HomePage.getLayout = function getLayout(page) {
       {page}
     </RootLayout>
   )
+}
+
+
+export const getStaticProps=async()=>{
+  const res=await fetch("http://localhost:3004/featuredProducts");
+  const data=await res.json();
+  console.log(data);
+
+  return{
+    props:{
+      allProducts:data
+    },
+  }
 }

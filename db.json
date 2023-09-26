@@ -1,0 +1,58 @@
+{
+    "featuredProducts": [
+      {
+        "id":1,
+        "image": "/public/images/graphicscard.jpg",
+        "productName": "Gaming Graphics Card",
+        "category": "Graphics Cards",
+        "price": "$299.99",
+        "status": "In Stock",
+        "rating": 4.5
+      },
+      {
+        "id":2,
+        "image": "/public/images/gamingkeyboardcard.jpg",
+        "productName": "High-Performance CPU",
+        "category": "Processors",
+        "price": "$249.99",
+        "status": "In Stock",
+        "rating": 4.8
+      },
+      {
+        "id":3,
+        "image": "/public/images/ssdcard.jpg",
+        "productName": "Fast SSD Drive",
+        "category": "Storage",
+        "price": "$99.99",
+        "status": "In Stock",
+        "rating": 4.3
+      },
+      {
+        "id":4,
+        "image": "/public/images/gamingkeyboardcard.jpg",
+        "productName": "Gaming Keyboard",
+        "category": "Keyboards",
+        "price": "$79.99",
+        "status": "Out of Stock",
+        "rating": 4.7
+      },
+      {
+        "id":5,
+        "image": "/public/images/gamingmouse.jpg",
+        "productName": "Wireless Gaming Mouse",
+        "category": "Mice",
+        "price": "$49.99",
+        "status": "In Stock",
+        "rating": 4.6
+      },
+      {
+        "image": "/public/images/ultrahdmonitorcard.jpg",
+        "productName": "Ultra HD Monitor",
+        "category": "Monitors",
+        "price": "$399.99",
+        "status": "In Stock",
+        "rating": 4.9
+      }
+    ]
+  }
+  
