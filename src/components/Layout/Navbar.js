@@ -18,14 +18,6 @@ const Navbar = () => {
                             icon={faCaretDown}
                         /></label>
                         <ul tabIndex={0} className="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-52 mt-4">
-                            {/* <li><a>CPU / Processor</a></li>
-                            <li><a>Motherboard</a></li>
-                            <li><a>RAM</a></li>
-                            <li><a>Power Supply Unit</a></li>
-                            <li><a>Storage Device</a></li>
-                            <li><a>Monitor</a></li>
-                            <li><a>Others</a></li> */}
-
                             <li><Link href="/cpu">CPU / Processor</Link></li>
                             <li><Link href="/motherboard">Motherboard</Link></li>
                             <li><Link href="/ram">RAM</Link></li>
