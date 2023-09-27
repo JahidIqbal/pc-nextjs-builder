@@ -1,4 +1,5 @@
 import RootLayout from "@/components/Layout/RootLayout";
+import AllProducts from "@/components/UI/AllProducts";
 import Banner from "@/components/UI/Banner";
 import Head from "next/head";
 const HomePage = ({allProducts}) => {
@@ -6,6 +7,8 @@ const HomePage = ({allProducts}) => {
     <div>
       <Head>
       </Head>
+      <Banner />
+      <AllProducts allProducts={allProducts}></AllProducts>
     </div>
   );
 };

@@ -2,7 +2,7 @@
     "featuredProducts": [
       {
         "id":1,
-        "image": "/public/images/graphicscard.jpg",
+        "image": "/images/graphicscard.jpg",
         "productName": "Gaming Graphics Card",
         "category": "Graphics Cards",
         "price": "$299.99",
@@ -11,7 +11,7 @@
       },
       {
         "id":2,
-        "image": "/public/images/gamingkeyboardcard.jpg",
+        "image": "/images/gamingkeyboardcard.jpg",
         "productName": "High-Performance CPU",
         "category": "Processors",
         "price": "$249.99",
@@ -20,7 +20,7 @@
       },
       {
         "id":3,
-        "image": "/public/images/ssdcard.jpg",
+        "image": "/images/ssdcard.jpg",
         "productName": "Fast SSD Drive",
         "category": "Storage",
         "price": "$99.99",
@@ -29,7 +29,7 @@
       },
       {
         "id":4,
-        "image": "/public/images/gamingkeyboardcard.jpg",
+        "image": "/images/gamingkeyboardcard.jpg",
         "productName": "Gaming Keyboard",
         "category": "Keyboards",
         "price": "$79.99",

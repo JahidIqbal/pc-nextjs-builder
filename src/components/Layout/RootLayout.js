@@ -49,9 +49,7 @@ const RootLayout = ({ children }) => {
         </div>
       </div>
 
-      <div style={{ width: "100%", boxSizing: "border-box" }}>
-        <Banner></Banner>
-      </div>
+       {children}
 
       <footer className="footer p-10 bg-neutral text-neutral-content">
         <nav>
