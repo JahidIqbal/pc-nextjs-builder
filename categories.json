@@ -1,0 +1,26 @@
+{
+    "FeaturedCategories": [
+      {
+        "name": "CPU / Processor"
+      },
+      {
+        "name": "Motherboard"
+      },
+      {
+        "name": "RAM"
+      },
+      {
+        "name": "Power Supply Unit"
+      },
+      {
+        "name": "Storage Device"
+      },
+      {
+        "name": "Monitor"
+      },
+      {
+        "name": "Others"
+      }
+    ]
+  }
+  
