@@ -11,7 +11,7 @@
       },
       {
         "id":2,
-        "image": "/images/gamingkeyboardcard.jpg",
+        "image": "/images/highcpu.jpg",
         "productName": "High-Performance CPU",
         "category": "Processors",
         "price": "$249.99",
@@ -20,7 +20,7 @@
       },
       {
         "id":3,
-        "image": "/images/ssdcard.jpg",
+        "image": "/images/Top-Fastest-SSD1.png",
         "productName": "Fast SSD Drive",
         "category": "Storage",
         "price": "$99.99",
@@ -38,7 +38,7 @@
       },
       {
         "id":5,
-        "image": "/public/images/gamingmouse.jpg",
+        "image": "/images/logitech-g903-wireless-gaming-mouse-1.jpg",
         "productName": "Wireless Gaming Mouse",
         "category": "Mice",
         "price": "$49.99",
@@ -46,7 +46,7 @@
         "rating": 4.6
       },
       {
-        "image": "/public/images/ultrahdmonitorcard.jpg",
+        "image": "/images/best-4k-gaming-monitors-20230808-2-medium.jpg",
         "productName": "Ultra HD Monitor",
         "category": "Monitors",
         "price": "$399.99",
