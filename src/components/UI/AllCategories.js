@@ -8,7 +8,7 @@ const AllCategories = ({ allCategories }) => {
       {allCategories.map((category) => (
         <div className="card shadow-xl" key={category.name}>
           <div className="card-body">
-          <Link href="/">{category.name}</Link>
+          <Link href={`/categories/${category.id}`}>{category.name}</Link>
           </div>
         </div>
       ))}

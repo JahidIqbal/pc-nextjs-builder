@@ -1,24 +1,31 @@
 {
     "FeaturedCategories": [
       {
+        "id": 1,
         "name": "CPU / Processor"
       },
       {
+        "id":2,
         "name": "Motherboard"
       },
       {
+        "id": 3,
         "name": "RAM"
       },
       {
+        "id": 4,
         "name": "Power Supply Unit"
       },
       {
+        "id": 5,
         "name": "Storage Device"
       },
       {
+        "id": 6,
         "name": "Monitor"
       },
       {
+        "id": 7,
         "name": "Others"
       }
     ]
