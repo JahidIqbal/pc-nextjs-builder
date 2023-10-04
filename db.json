@@ -1,58 +1,197 @@
 {
-    "featuredProducts": [
-      {
-        "id":1,
-        "image": "/images/graphicscard.jpg",
-        "productName": "Gaming Graphics Card",
-        "category": "Graphics Cards",
-        "price": "$299.99",
-        "status": "In Stock",
-        "rating": 4.5
+  "featuredProducts": [
+    {
+      "id": 1,
+      "image": "/images/graphicscard.jpg",
+      "productName": "Gaming Graphics Card",
+      "category": "Graphics Cards",
+      "price": "$299.99",
+      "status": "In Stock",
+      "rating": 4.5,
+      "description": "Upgrade your gaming experience with this powerful gaming graphics card.",
+      "keyFeatures": {
+        "Brand": "ExampleBrand",
+        "Model": "GTX 9000",
+        "Specification": "8GB GDDR6, 256-bit",
+        "Port": "PCI Express 4.0",
+        "Type": "Dedicated",
+        "Resolution": "4K",
+        "Voltage": "12V"
       },
-      {
-        "id":2,
-        "image": "/images/highcpu.jpg",
-        "productName": "High-Performance CPU",
-        "category": "Processors",
-        "price": "$249.99",
-        "status": "In Stock",
-        "rating": 4.8
+      "individualRating": 4.5,
+      "averageRating": 4,
+      "reviews": [
+        {
+          "username": "John",
+          "rating": 3,
+          "comment": "Great performance and value for money."
+        },
+        {
+          "username": "Ford",
+          "rating": 4,
+          "comment": "Works well, but a bit pricey."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "/images/highcpu.jpg",
+      "productName": "High-Performance CPU",
+      "category": "Processors",
+      "price": "$249.99",
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "Unlock the potential of your PC with this high-performance CPU.",
+      "keyFeatures": {
+        "Brand": "ExampleTech",
+        "Model": "XtremeCore i9",
+        "Specification": "16 cores, 32 threads",
+        "Socket": "LGA 1200",
+        "Clock Speed": "4.5 GHz",
+        "TDP": "125W"
       },
-      {
-        "id":3,
-        "image": "/images/Top-Fastest-SSD1.png",
-        "productName": "Fast SSD Drive",
-        "category": "Storage",
-        "price": "$99.99",
-        "status": "In Stock",
-        "rating": 4.3
+      "individualRating": 4,
+      "averageRating": 3,
+      "reviews": [
+        {
+          "username": "Oliver",
+          "rating": 3.5,
+          "comment": "Amazing CPU for gaming and productivity."
+        },
+        {
+          "username": "Emma",
+          "rating": 5,
+          "comment": "Fast, but runs a bit hot."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "image": "/images/Top-Fastest-SSD1.png",
+      "productName": "Fast SSD Drive",
+      "category": "Storage",
+      "price": "$99.99",
+      "status": "In Stock",
+      "rating": 3,
+      "description": "Experience lightning-fast data access with this SSD drive.",
+      "keyFeatures": {
+        "Brand": "ExampleStorage",
+        "Model": "SpeedySSD 500",
+        "Capacity": "500GB",
+        "Interface": "NVMe",
+        "Read Speed": "3500 MB/s",
+        "Write Speed": "2500 MB/s"
       },
-      {
-        "id":4,
-        "image": "/images/gamingkeyboardcard.jpg",
-        "productName": "Gaming Keyboard",
-        "category": "Keyboards",
-        "price": "$79.99",
-        "status": "Out of Stock",
-        "rating": 4.7
+      "individualRating": 4,
+      "averageRating": 4,
+      "reviews": [
+        {
+          "username": "Daisy",
+          "rating": 3.5,
+          "comment": "Good SSD for the price."
+        },
+        {
+          "username": "Liam",
+          "rating": 5,
+          "comment": "Fast, but could have more storage."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "image": "/images/gamingkeyboardcard.jpg",
+      "productName": "Gaming Keyboard",
+      "category": "Keyboards",
+      "price": "$79.99",
+      "status": "Out of Stock",
+      "rating": 4.7,
+      "description": "Dominate your games with this responsive gaming keyboard.",
+      "keyFeatures": {
+        "Brand": "GamerZone",
+        "Model": "ProKiller K1",
+        "Switch Type": "Mechanical",
+        "Backlighting": "RGB",
+        "Key Rollover": "N-Key",
+        "Wrist Rest": "Included"
       },
-      {
-        "id":5,
-        "image": "/images/logitech-g903-wireless-gaming-mouse-1.jpg",
-        "productName": "Wireless Gaming Mouse",
-        "category": "Mice",
-        "price": "$49.99",
-        "status": "In Stock",
-        "rating": 4.6
+      "individualRating": 3,
+      "averageRating": 5,
+      "reviews": [
+        {
+          "username": "Theodore",
+          "rating": 4.5,
+          "comment": "Great aming Keyboard, but a bit heavy."
+        },
+        {
+          "username": "Bella",
+          "rating": 3,
+          "comment": "Good value for a wireless gaming keyboard."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "image": "/images/logitech-g903-wireless-gaming-mouse-1.jpg",
+      "productName": "Wireless Gaming Mouse",
+      "category": "Mice",
+      "price": "$49.99",
+      "status": "In Stock",
+      "rating": 4.6,
+      "description": "Cut the cord and game without limits with this wireless gaming mouse.",
+      "keyFeatures": {
+        "Brand": "LogiGamer",
+        "Model": "G903",
+        "Type": "Wireless",
+        "DPI": "12,000",
+        "Buttons": "11",
+        "Battery Life": "Up to 32 hours"
       },
-      {
-        "image": "/images/best-4k-gaming-monitors-20230808-2-medium.jpg",
-        "productName": "Ultra HD Monitor",
-        "category": "Monitors",
-        "price": "$399.99",
-        "status": "In Stock",
-        "rating": 4.9
-      }
-    ]
-  }
-  
+      "individualRating": 4,
+      "averageRating": 5,
+      "reviews": [
+        {
+          "username": "Sage",
+          "rating": 4.5,
+          "comment": "Great wireless mouse, but a bit heavy."
+        },
+        {
+          "username": "Sebastian",
+          "rating": 5,
+          "comment": "Good value for a wireless gaming mouse."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "image": "/images/best-4k-gaming-monitors-20230808-2-medium.jpg",
+      "productName": "Ultra HD Monitor",
+      "category": "Monitors",
+      "price": "$399.99",
+      "status": "In Stock",
+      "rating": 4.9,
+      "description": "Immerse yourself in stunning 4K visuals with this ultra HD monitor.",
+      "keyFeatures": {
+        "Brand": "ViewPerfect",
+        "Model": "4KMaster V1",
+        "Resolution": "3840 x 2160",
+        "Panel Type": "IPS",
+        "Refresh Rate": "60Hz",
+        "Size": "27 inches"
+      },
+      "individualRating": 5,
+      "averageRating": 4,
+      "reviews": [
+        {
+          "username": "Emily",
+          "rating": 5,
+          "comment": "Gorgeous 4K monitor for gaming and work."
+        },
+        {
+          "username": "Alexander",
+          "rating": 4,
+          "comment": "Excellent picture quality, but a bit expensive."
+        }
+      ]
+    }
+  ]
+}
