@@ -4,8 +4,7 @@ import Rating from "react-rating";
 import ReactStars from "react-stars";
 
 
-//product 
-
+//product  featured products
 export async function getStaticPaths() {
     try {
         const res = await fetch("http://localhost:3004/featuredProducts");
