@@ -7,7 +7,7 @@
         {
           "id": 101,
           "image": "/images/cpu1.jpg",
-          "productName": "High-Performance CPU 1",
+          "productName": "Ryzen 9 7950X",
           "category": "CPU / Processor",
           "price": "$299.99",
           "status": "In Stock",
@@ -16,7 +16,7 @@
         {
           "id": 102,
           "image": "/images/cpu2.jpg",
-          "productName": "Mid-Range CPU 1",
+          "productName": "M2 Ultra",
           "category": "CPU / Processor",
           "price": "$199.99",
           "status": "In Stock",
@@ -25,7 +25,16 @@
         {
           "id": 103,
           "image": "/images/cpu3.jpg",
-          "productName": "Budget CPU 1",
+          "productName": "Snapdragon 8cx",
+          "category": "CPU / Processor",
+          "price": "$99.99",
+          "status": "Out of Stock",
+          "rating": 3.5
+        },
+        {
+          "id": 104,
+          "image": "/images/cpu4.jpg",
+          "productName": "Core i9-13900K",
           "category": "CPU / Processor",
           "price": "$99.99",
           "status": "Out of Stock",
@@ -58,6 +67,15 @@
         {
           "id": 203,
           "image": "/images/motherboard3.jpg",
+          "productName": "Budget Motherboard 1",
+          "category": "Motherboard",
+          "price": "$79.99",
+          "status": "Out of Stock",
+          "rating": 3.7
+        },
+        {
+          "id": 204,
+          "image": "/images/motherboard4.jpg",
           "productName": "Budget Motherboard 1",
           "category": "Motherboard",
           "price": "$79.99",
@@ -96,6 +114,15 @@
           "price": "$39.99",
           "status": "Out of Stock",
           "rating": 3.6
+        },
+        {
+          "id": 304,
+          "image": "/images/ram4.jpg",
+          "productName": "Budget RAM 1",
+          "category": "RAM",
+          "price": "$39.99",
+          "status": "Out of Stock",
+          "rating": 3.6
         }
       ]
     },
@@ -124,6 +151,15 @@
         {
           "id": 403,
           "image": "/images/psu3.jpg",
+          "productName": "Budget PSU 1",
+          "category": "Power Supply Unit",
+          "price": "$49.99",
+          "status": "Out of Stock",
+          "rating": 3.8
+        },
+        {
+          "id": 404,
+          "image": "/images/psu4.jpg",
           "productName": "Budget PSU 1",
           "category": "Power Supply Unit",
           "price": "$49.99",
@@ -162,6 +198,15 @@
           "price": "$59.99",
           "status": "Out of Stock",
           "rating": 3.5
+        },
+        {
+          "id": 504,
+          "image": "/images/storage4.jpg",
+          "productName": "Budget SSD 1",
+          "category": "Storage Device",
+          "price": "$59.99",
+          "status": "Out of Stock",
+          "rating": 3.5
         }
       ]
     },
@@ -195,6 +240,15 @@
           "price": "$249.99",
           "status": "Out of Stock",
           "rating": 4.0
+        },
+        {
+          "id": 604,
+          "image": "/images/monitor4.jpg",
+          "productName": "Full HD Monitor 1",
+          "category": "Monitor",
+          "price": "$249.99",
+          "status": "Out of Stock",
+          "rating": 4.0
         }
       ]
     },
@@ -204,7 +258,7 @@
       "products": [
         {
           "id": 701,
-          "image": "/images/other1.jpg",
+          "image": "/images/gpu1.jpg",
           "productName": "GPU 1",
           "category": "Others",
           "price": "$49.99",
@@ -213,7 +267,7 @@
         },
         {
           "id": 702,
-          "image": "/images/other2.jpg",
+          "image": "/images/gpu2.jpg",
           "productName": "GPU 2",
           "category": "Others",
           "price": "$79.99",
@@ -222,7 +276,16 @@
         },
         {
           "id": 703,
-          "image": "/images/other3.jpg",
+          "image": "/images/gpu3.jpg",
+          "productName": "GPU 3",
+          "category": "Others",
+          "price": "$99.99",
+          "status": "Out of Stock",
+          "rating": 3.8
+        },
+        {
+          "id": 704,
+          "image": "/images/gpu4.jpg",
           "productName": "GPU 3",
           "category": "Others",
           "price": "$99.99",

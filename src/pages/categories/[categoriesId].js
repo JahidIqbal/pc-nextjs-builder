@@ -18,7 +18,7 @@ const CategoriesDetailsPage = ({ category }) => {
     // </div>
     <div>
       <h1>{category.name}</h1>
-      <div className="product-list">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-4">
         {category.products.map((cat) => (
           <Category key={cat.id} category={cat} />
         ))}
