@@ -1,5 +1,5 @@
 {
-    "FeaturedCategories": [
+    "featuredCategories": [
       {
         "id": 1,
         "name": "CPU / Processor"

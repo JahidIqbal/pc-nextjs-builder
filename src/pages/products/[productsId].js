@@ -4,7 +4,6 @@ import Rating from "react-rating";
 import ReactStars from "react-stars";
 
 
-//product  featured products
 export async function getStaticPaths() {
     try {
         const res = await fetch("http://localhost:3004/featuredProducts");
@@ -41,19 +40,11 @@ export async function getStaticPaths() {
 const ProductDetailsPage = ({ data }) => {
     const router = useRouter();
 
-    const starStyles = {
-        color: 'text-yellow-600',           // Color for filled stars
-        emptyColor: 'text-gray-300',        // Color for empty stars
-        size: 'text-2xl',                   // Size of stars
-        readonly: true,                    // Make the rating readonly
-    };
-
-
     if (router.isFallback) {
         return <div>Loading...</div>;
     }
 
-    console.log("Data in ProductDetailsPage:", data);
+    // console.log("Data in ProductDetailsPage:", data);
 
 
     return (
@@ -125,7 +116,7 @@ export const getStaticProps = async ({ params }) => {
 
     const res = await fetch(`http://localhost:3004/featuredProducts/${productId}`);
     const data = await res.json();
-    console.log("Data fetched in getStaticProps:", data);
+    // console.log("Data fetched in getStaticProps:", data);
 
     return {
         props: {
@@ -135,4 +126,20 @@ export const getStaticProps = async ({ params }) => {
 };
 
 
+
+
+// export const getServerSideProps = async ({ params }) => {
+//     const productId = params.productsId;
+//     console.log("productId:", productId); // Add this line to check productId
+
+//     const res = await fetch(`http://localhost:3004/featuredProducts/${productId}`);
+//     const data = await res.json();
+//     console.log("Data fetched in getStaticProps:", data);
+
+//     return {
+//         props: {
+//             data,
+//         },
+//     };
+// };
 

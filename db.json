@@ -1,4 +1,237 @@
 {
+  "FeaturedCategories": [
+    {
+      "id": 1,
+      "name": "CPU / Processor",
+      "products": [
+        {
+          "id": 101,
+          "image": "/images/cpu1.jpg",
+          "productName": "High-Performance CPU 1",
+          "category": "CPU / Processor",
+          "price": "$299.99",
+          "status": "In Stock",
+          "rating": 4.5
+        },
+        {
+          "id": 102,
+          "image": "/images/cpu2.jpg",
+          "productName": "Mid-Range CPU 1",
+          "category": "CPU / Processor",
+          "price": "$199.99",
+          "status": "In Stock",
+          "rating": 4.0
+        },
+        {
+          "id": 103,
+          "image": "/images/cpu3.jpg",
+          "productName": "Budget CPU 1",
+          "category": "CPU / Processor",
+          "price": "$99.99",
+          "status": "Out of Stock",
+          "rating": 3.5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Motherboard",
+      "products": [
+        {
+          "id": 201,
+          "image": "/images/motherboard1.jpg",
+          "productName": "High-End Motherboard 1",
+          "category": "Motherboard",
+          "price": "$249.99",
+          "status": "In Stock",
+          "rating": 4.8
+        },
+        {
+          "id": 202,
+          "image": "/images/motherboard2.jpg",
+          "productName": "Mid-Range Motherboard 1",
+          "category": "Motherboard",
+          "price": "$149.99",
+          "status": "In Stock",
+          "rating": 4.3
+        },
+        {
+          "id": 203,
+          "image": "/images/motherboard3.jpg",
+          "productName": "Budget Motherboard 1",
+          "category": "Motherboard",
+          "price": "$79.99",
+          "status": "Out of Stock",
+          "rating": 3.7
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "RAM",
+      "products": [
+        {
+          "id": 301,
+          "image": "/images/ram1.jpg",
+          "productName": "High-Performance RAM 1",
+          "category": "RAM",
+          "price": "$89.99",
+          "status": "In Stock",
+          "rating": 4.4
+        },
+        {
+          "id": 302,
+          "image": "/images/ram2.jpg",
+          "productName": "Mid-Range RAM 1",
+          "category": "RAM",
+          "price": "$59.99",
+          "status": "In Stock",
+          "rating": 4.1
+        },
+        {
+          "id": 303,
+          "image": "/images/ram3.jpg",
+          "productName": "Budget RAM 1",
+          "category": "RAM",
+          "price": "$39.99",
+          "status": "Out of Stock",
+          "rating": 3.6
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Power Supply Unit",
+      "products": [
+        {
+          "id": 401,
+          "image": "/images/psu1.jpg",
+          "productName": "High-Wattage PSU 1",
+          "category": "Power Supply Unit",
+          "price": "$129.99",
+          "status": "In Stock",
+          "rating": 4.7
+        },
+        {
+          "id": 402,
+          "image": "/images/psu2.jpg",
+          "productName": "Mid-Range PSU 1",
+          "category": "Power Supply Unit",
+          "price": "$79.99",
+          "status": "In Stock",
+          "rating": 4.2
+        },
+        {
+          "id": 403,
+          "image": "/images/psu3.jpg",
+          "productName": "Budget PSU 1",
+          "category": "Power Supply Unit",
+          "price": "$49.99",
+          "status": "Out of Stock",
+          "rating": 3.8
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Storage Device",
+      "products": [
+        {
+          "id": 501,
+          "image": "/images/storage1.jpg",
+          "productName": "High-Capacity SSD 1",
+          "category": "Storage Device",
+          "price": "$179.99",
+          "status": "In Stock",
+          "rating": 4.6
+        },
+        {
+          "id": 502,
+          "image": "/images/storage2.jpg",
+          "productName": "Mid-Range HDD 1",
+          "category": "Storage Device",
+          "price": "$99.99",
+          "status": "In Stock",
+          "rating": 4.0
+        },
+        {
+          "id": 503,
+          "image": "/images/storage3.jpg",
+          "productName": "Budget SSD 1",
+          "category": "Storage Device",
+          "price": "$59.99",
+          "status": "Out of Stock",
+          "rating": 3.5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Monitor",
+      "products": [
+        {
+          "id": 601,
+          "image": "/images/monitor1.jpg",
+          "productName": "4K Gaming Monitor 1",
+          "category": "Monitor",
+          "price": "$499.99",
+          "status": "In Stock",
+          "rating": 4.9
+        },
+        {
+          "id": 602,
+          "image": "/images/monitor2.jpg",
+          "productName": "Ultrawide Monitor 1",
+          "category": "Monitor",
+          "price": "$399.99",
+          "status": "In Stock",
+          "rating": 4.5
+        },
+        {
+          "id": 603,
+          "image": "/images/monitor3.jpg",
+          "productName": "Full HD Monitor 1",
+          "category": "Monitor",
+          "price": "$249.99",
+          "status": "Out of Stock",
+          "rating": 4.0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "GPU",
+      "products": [
+        {
+          "id": 701,
+          "image": "/images/other1.jpg",
+          "productName": "GPU 1",
+          "category": "Others",
+          "price": "$49.99",
+          "status": "In Stock",
+          "rating": 4.2
+        },
+        {
+          "id": 702,
+          "image": "/images/other2.jpg",
+          "productName": "GPU 2",
+          "category": "Others",
+          "price": "$79.99",
+          "status": "In Stock",
+          "rating": 4.7
+        },
+        {
+          "id": 703,
+          "image": "/images/other3.jpg",
+          "productName": "GPU 3",
+          "category": "Others",
+          "price": "$99.99",
+          "status": "Out of Stock",
+          "rating": 3.8
+        }
+      ]
+    }
+  ],
   "featuredProducts": [
     {
       "id": 1,
@@ -120,7 +353,7 @@
         {
           "username": "Theodore",
           "rating": 4.5,
-          "comment": "Great aming Keyboard, but a bit heavy."
+          "comment": "Great gaming keyboard, but a bit heavy."
         },
         {
           "username": "Bella",
