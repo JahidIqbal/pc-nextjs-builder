@@ -1,9 +1,10 @@
+import RootLayout from "@/components/Layout/RootLayout";
 import Image from "next/image";
 import Link from "next/link";
 
 const Category = ({ category }) => {
   return (
-    <div className="product-card border border-gray-200 p-4 rounded-md shadow-md mb-4">
+    <div className="product-card border border-gray-200 p-4 rounded-md shadow-md mb-16">
       <figure
         style={{
           position: "relative",

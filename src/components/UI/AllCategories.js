@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 
-//n
+
 const AllCategories = ({ allCategories }) => {
     return (
         <div>
@@ -20,3 +20,5 @@ const AllCategories = ({ allCategories }) => {
 };
 
 export default AllCategories;
+
+
