@@ -20,15 +20,9 @@ const CategoriesDetailsPage = ({ category }) => {
 
 export default CategoriesDetailsPage;
 
-
-
 CategoriesDetailsPage.getLayout = function getLayout(page) {
-  return (
-    <RootLayout>
-      {page}
-    </RootLayout>
-  )
-}
+  return <RootLayout>{page}</RootLayout>;
+};
 
 export async function getStaticPaths() {
   const categories = [1, 2, 3, 4, 5, 6, 7];
@@ -40,19 +34,15 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  console.log(params);
   const { categoriesId } = params;
 
-  // Fetch category data based on categoriesId from your JSON data
   const res = await fetch(
     `http://localhost:3004/featuredCategories/${categoriesId}`
   );
   const category = await res.json();
-
   return {
     props: {
       category,
     },
   };
 }
-

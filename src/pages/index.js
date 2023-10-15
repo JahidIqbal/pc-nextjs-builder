@@ -32,7 +32,6 @@ export const getStaticProps=async()=>{
   const data=await res.json();
   const categories = await fetch('http://localhost:3004/featuredCategories');
   const categoriesdata=await categories.json();
-  // console.log(categoriesdata);
 
   return{
     props:{
@@ -41,21 +40,3 @@ export const getStaticProps=async()=>{
     },
   }
 }
-
-
-
-// export const getServerSideProps=async()=>{
-//   const res=await fetch("http://localhost:3000/api/products");
-//   const data=await res.json();
-//   console.log(data);
-//   const categories = await fetch('http://localhost:3005/FeaturedCategories');
-//   const categoriesdata=await categories.json();
-//   // console.log(categoriesdata);
-
-//   return{
-//     props:{
-//       allProducts:data.data,
-//       allCategories:categoriesdata
-//     },
-//   }
-// }

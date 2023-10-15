@@ -1,5 +1,5 @@
 {
-  "FeaturedCategories": [
+  "featuredCategories": [
     {
       "id": 1,
       "name": "CPU / Processor",
@@ -11,7 +11,31 @@
           "category": "CPU / Processor",
           "price": "$299.99",
           "status": "In Stock",
-          "rating": 4.5
+          "rating": 4.5,
+          "description": "Upgrade your gaming experience with this powerful CPU.",
+          "keyFeatures": {
+            "Brand": "ExampleBrand",
+            "Model": "Ryzen 9 7950X",
+            "Specification": "8GB GDDR6, 256-bit",
+            "Port": "PCI Express 4.0",
+            "Type": "Dedicated",
+            "Resolution": "4K",
+            "Voltage": "12V"
+          },
+          "individualRating": 4.5,
+          "averageRating": 4,
+          "reviews": [
+            {
+              "username": "Johnny Smith",
+              "rating": 3,
+              "comment": "Great performance and value for money."
+            },
+            {
+              "username": "Ford",
+              "rating": 4,
+              "comment": "Works well, but a bit pricey."
+            }
+          ]
         },
         {
           "id": 102,
@@ -20,7 +44,31 @@
           "category": "CPU / Processor",
           "price": "$199.99",
           "status": "In Stock",
-          "rating": 4.0
+          "rating": 4.0,
+          "description": "A high-performance CPU for your computing needs.",
+          "keyFeatures": {
+            "Brand": "ExampleBrand",
+            "Model": "M2 Ultra",
+            "Specification": "16GB DDR4, 3200MHz",
+            "Port": "PCI Express 3.0",
+            "Type": "Integrated",
+            "Resolution": "Full HD",
+            "Voltage": "10V"
+          },
+          "individualRating": 4.0,
+          "averageRating": 4.0,
+          "reviews": [
+            {
+              "username": "Alice",
+              "rating": 4.5,
+              "comment": "Great value and performance for everyday use."
+            },
+            {
+              "username": "Bob",
+              "rating": 4.0,
+              "comment": "Solid CPU, good for office work."
+            }
+          ]
         },
         {
           "id": 103,
@@ -29,7 +77,31 @@
           "category": "CPU / Processor",
           "price": "$99.99",
           "status": "Out of Stock",
-          "rating": 3.5
+          "rating": 3.5,
+          "description": "An energy-efficient processor for mobile devices.",
+          "keyFeatures": {
+            "Brand": "ExampleBrand",
+            "Model": "Snapdragon 8cx",
+            "Specification": "4GB LPDDR4X, 64-bit",
+            "Port": "USB-C",
+            "Type": "Integrated",
+            "Resolution": "4K",
+            "Voltage": "5V"
+          },
+          "individualRating": 3.5,
+          "averageRating": 3.5,
+          "reviews": [
+            {
+              "username": "Eve",
+              "rating": 3.0,
+              "comment": "Decent processor for basic tasks, not for heavy usage."
+            },
+            {
+              "username": "Grace",
+              "rating": 4.0,
+              "comment": "Good for low-power laptops."
+            }
+          ]
         },
         {
           "id": 104,
@@ -38,7 +110,31 @@
           "category": "CPU / Processor",
           "price": "$99.99",
           "status": "Out of Stock",
-          "rating": 3.5
+          "rating": 3.5,
+          "description": "A high-end CPU for gaming and multitasking.",
+          "keyFeatures": {
+            "Brand": "ExampleBrand",
+            "Model": "Core i9-13900K",
+            "Specification": "12GB GDDR6X, 384-bit",
+            "Port": "PCI Express 4.0",
+            "Type": "Dedicated",
+            "Resolution": "8K",
+            "Voltage": "15V"
+          },
+          "individualRating": 3.5,
+          "averageRating": 3.5,
+          "reviews": [
+            {
+              "username": "Henry",
+              "rating": 4.5,
+              "comment": "Great for gaming and video editing."
+            },
+            {
+              "username": "Isabel",
+              "rating": 3.0,
+              "comment": "A bit overpriced for the performance."
+            }
+          ]
         }
       ]
     },
@@ -53,7 +149,32 @@
           "category": "Motherboard",
           "price": "$249.99",
           "status": "In Stock",
-          "rating": 4.8
+          "rating": 4.8,
+          "description": "A high-end motherboard for enthusiasts and gamers.",
+          "keyFeatures": {
+            "Brand": "ExampleBrand",
+            "Model": "High-End Motherboard 1",
+            "Form Factor": "ATX",
+            "Chipset": "Z690",
+            "Socket": "LGA 1700",
+            "RAM Slots": "4",
+            "PCIe Slots": "3 x PCIe 4.0",
+            "Connectivity": "Wi-Fi 6, Bluetooth 5.2"
+          },
+          "individualRating": 4.8,
+          "averageRating": 4.8,
+          "reviews": [
+            {
+              "username": "Alice",
+              "rating": 5.0,
+              "comment": "Amazing motherboard for my gaming rig."
+            },
+            {
+              "username": "Bob",
+              "rating": 4.5,
+              "comment": "Great features and performance, but a bit expensive."
+            }
+          ]
         },
         {
           "id": 202,
@@ -62,7 +183,32 @@
           "category": "Motherboard",
           "price": "$149.99",
           "status": "In Stock",
-          "rating": 4.3
+          "rating": 4.3,
+          "description": "A reliable mid-range motherboard for your PC build.",
+          "keyFeatures": {
+            "Brand": "ExampleBrand",
+            "Model": "Mid-Range Motherboard 1",
+            "Form Factor": "Micro ATX",
+            "Chipset": "B560",
+            "Socket": "LGA 1200",
+            "RAM Slots": "4",
+            "PCIe Slots": "2 x PCIe 4.0",
+            "Connectivity": "Gigabit Ethernet, USB 3.2"
+          },
+          "individualRating": 4.3,
+          "averageRating": 4.3,
+          "reviews": [
+            {
+              "username": "Eve",
+              "rating": 4.0,
+              "comment": "Solid motherboard for my office PC."
+            },
+            {
+              "username": "Grace",
+              "rating": 4.5,
+              "comment": "Good value for the price."
+            }
+          ]
         },
         {
           "id": 203,
@@ -71,16 +217,66 @@
           "category": "Motherboard",
           "price": "$79.99",
           "status": "Out of Stock",
-          "rating": 3.7
+          "rating": 3.7,
+          "description": "An affordable motherboard for basic computing needs.",
+          "keyFeatures": {
+            "Brand": "ExampleBrand",
+            "Model": "Budget Motherboard 1",
+            "Form Factor": "ATX",
+            "Chipset": "H510",
+            "Socket": "LGA 1200",
+            "RAM Slots": "2",
+            "PCIe Slots": "1 x PCIe 3.0",
+            "Connectivity": "Gigabit Ethernet, USB 3.1"
+          },
+          "individualRating": 3.7,
+          "averageRating": 3.7,
+          "reviews": [
+            {
+              "username": "Henry",
+              "rating": 3.5,
+              "comment": "Decent for basic tasks, but limited expansion."
+            },
+            {
+              "username": "Isabel",
+              "rating": 4.0,
+              "comment": "Good for budget builds."
+            }
+          ]
         },
         {
           "id": 204,
           "image": "/images/motherboard4.jpg",
-          "productName": "Budget Motherboard 1",
+          "productName": "Budget Motherboard 2",
           "category": "Motherboard",
           "price": "$79.99",
           "status": "Out of Stock",
-          "rating": 3.7
+          "rating": 3.7,
+          "description": "An affordable motherboard with essential features.",
+          "keyFeatures": {
+            "Brand": "ExampleBrand",
+            "Model": "Budget Motherboard 2",
+            "Form Factor": "Micro ATX",
+            "Chipset": "B460",
+            "Socket": "LGA 1200",
+            "RAM Slots": "2",
+            "PCIe Slots": "1 x PCIe 3.0",
+            "Connectivity": "Gigabit Ethernet, USB 3.1"
+          },
+          "individualRating": 3.7,
+          "averageRating": 3.7,
+          "reviews": [
+            {
+              "username": "James",
+              "rating": 3.0,
+              "comment": "It gets the job done for basic tasks."
+            },
+            {
+              "username": "Linda",
+              "rating": 3.5,
+              "comment": "Not for gaming, but decent for everyday use."
+            }
+          ]
         }
       ]
     },
@@ -95,7 +291,31 @@
           "category": "RAM",
           "price": "$89.99",
           "status": "In Stock",
-          "rating": 4.4
+          "rating": 4.4,
+          "description": "Experience blazing-fast performance with this high-performance RAM module.",
+          "keyFeatures": {
+            "Brand": "ExampleRAM",
+            "Model": "High-Performance RAM 1",
+            "Capacity": "16GB (2 x 8GB)",
+            "Speed": "DDR4-3600",
+            "CAS Latency": "CL16",
+            "Voltage": "1.35V",
+            "XMP Support": "Yes"
+          },
+          "individualRating": 4.4,
+          "averageRating": 4.4,
+          "reviews": [
+            {
+              "username": "John",
+              "rating": 4.5,
+              "comment": "Great RAM for gaming and multitasking."
+            },
+            {
+              "username": "Sarah",
+              "rating": 4.3,
+              "comment": "Fast and reliable RAM, highly recommended."
+            }
+          ]
         },
         {
           "id": 302,
@@ -104,7 +324,31 @@
           "category": "RAM",
           "price": "$59.99",
           "status": "In Stock",
-          "rating": 4.1
+          "rating": 4.1,
+          "description": "A solid choice for mainstream users looking for dependable performance.",
+          "keyFeatures": {
+            "Brand": "ExampleRAM",
+            "Model": "Mid-Range RAM 1",
+            "Capacity": "8GB (2 x 4GB)",
+            "Speed": "DDR4-2666",
+            "CAS Latency": "CL15",
+            "Voltage": "1.2V",
+            "XMP Support": "No"
+          },
+          "individualRating": 4.1,
+          "averageRating": 4.1,
+          "reviews": [
+            {
+              "username": "Mike",
+              "rating": 4.0,
+              "comment": "Reliable RAM for everyday use."
+            },
+            {
+              "username": "Emily",
+              "rating": 4.2,
+              "comment": "Good value for the price."
+            }
+          ]
         },
         {
           "id": 303,
@@ -113,19 +357,68 @@
           "category": "RAM",
           "price": "$39.99",
           "status": "Out of Stock",
-          "rating": 3.6
+          "rating": 3.6,
+          "description": "An affordable RAM option for basic computing needs.",
+          "keyFeatures": {
+            "Brand": "ExampleRAM",
+            "Model": "Budget RAM 1",
+            "Capacity": "4GB (1 x 4GB)",
+            "Speed": "DDR4-2133",
+            "CAS Latency": "CL17",
+            "Voltage": "1.5V",
+            "XMP Support": "No"
+          },
+          "individualRating": 3.6,
+          "averageRating": 3.6,
+          "reviews": [
+            {
+              "username": "David",
+              "rating": 3.5,
+              "comment": "Basic RAM, but it gets the job done."
+            },
+            {
+              "username": "Olivia",
+              "rating": 3.7,
+              "comment": "Decent for everyday tasks."
+            }
+          ]
         },
         {
           "id": 304,
           "image": "/images/ram4.jpg",
-          "productName": "Budget RAM 1",
+          "productName": "Budget RAM 2",
           "category": "RAM",
           "price": "$39.99",
           "status": "Out of Stock",
-          "rating": 3.6
+          "rating": 3.6,
+          "description": "An affordable and reliable RAM module for budget-conscious users.",
+          "keyFeatures": {
+            "Brand": "ExampleRAM",
+            "Model": "Budget RAM 2",
+            "Capacity": "8GB (2 x 4GB)",
+            "Speed": "DDR4-2400",
+            "CAS Latency": "CL16",
+            "Voltage": "1.35V",
+            "XMP Support": "No"
+          },
+          "individualRating": 3.6,
+          "averageRating": 3.6,
+          "reviews": [
+            {
+              "username": "Daniel",
+              "rating": 3.5,
+              "comment": "Good for basic tasks, nothing fancy."
+            },
+            {
+              "username": "Sophia",
+              "rating": 3.7,
+              "comment": "Affordable and reliable RAM."
+            }
+          ]
         }
       ]
     },
+    
     {
       "id": 4,
       "name": "Power Supply Unit",
@@ -179,7 +472,31 @@
           "category": "Storage Device",
           "price": "$179.99",
           "status": "In Stock",
-          "rating": 4.6
+          "rating": 4.6,
+          "description": "Experience high-speed storage with this high-capacity SSD.",
+          "keyFeatures": {
+            "Brand": "ExampleStorage",
+            "Model": "High-Capacity SSD 1",
+            "Capacity": "2TB",
+            "Interface": "NVMe PCIe Gen4",
+            "Read Speed": "Up to 3500MB/s",
+            "Write Speed": "Up to 2900MB/s",
+            "Form Factor": "M.2 2280"
+          },
+          "individualRating": 4.6,
+          "averageRating": 4.6,
+          "reviews": [
+            {
+              "username": "Lucas",
+              "rating": 4.5,
+              "comment": "Blazing-fast storage, great for gaming."
+            },
+            {
+              "username": "Sophie",
+              "rating": 4.7,
+              "comment": "High capacity and excellent performance."
+            }
+          ]
         },
         {
           "id": 502,
@@ -188,7 +505,30 @@
           "category": "Storage Device",
           "price": "$99.99",
           "status": "In Stock",
-          "rating": 4.0
+          "rating": 4.0,
+          "description": "A reliable mid-range HDD for storing your data.",
+          "keyFeatures": {
+            "Brand": "ExampleStorage",
+            "Model": "Mid-Range HDD 1",
+            "Capacity": "2TB",
+            "Interface": "SATA III",
+            "RPM": "7200",
+            "Cache": "64MB"
+          },
+          "individualRating": 4.0,
+          "averageRating": 4.0,
+          "reviews": [
+            {
+              "username": "Aiden",
+              "rating": 3.8,
+              "comment": "Good for storage, but not the fastest."
+            },
+            {
+              "username": "Ella",
+              "rating": 4.2,
+              "comment": "Reliable and spacious storage for files."
+            }
+          ]
         },
         {
           "id": 503,
@@ -197,19 +537,68 @@
           "category": "Storage Device",
           "price": "$59.99",
           "status": "Out of Stock",
-          "rating": 3.5
+          "rating": 3.5,
+          "description": "An affordable SSD for basic storage needs.",
+          "keyFeatures": {
+            "Brand": "ExampleStorage",
+            "Model": "Budget SSD 1",
+            "Capacity": "500GB",
+            "Interface": "SATA III",
+            "Read Speed": "Up to 550MB/s",
+            "Write Speed": "Up to 520MB/s",
+            "Form Factor": "2.5-inch"
+          },
+          "individualRating": 3.5,
+          "averageRating": 3.5,
+          "reviews": [
+            {
+              "username": "Oliver",
+              "rating": 3.2,
+              "comment": "Decent budget SSD, not the fastest though."
+            },
+            {
+              "username": "Mia",
+              "rating": 3.8,
+              "comment": "Affordable and good for basic tasks."
+            }
+          ]
         },
         {
           "id": 504,
           "image": "/images/storage4.jpg",
-          "productName": "Budget SSD 1",
+          "productName": "Budget SSD 2",
           "category": "Storage Device",
           "price": "$59.99",
           "status": "Out of Stock",
-          "rating": 3.5
+          "rating": 3.5,
+          "description": "An economical SSD for entry-level storage solutions.",
+          "keyFeatures": {
+            "Brand": "ExampleStorage",
+            "Model": "Budget SSD 2",
+            "Capacity": "480GB",
+            "Interface": "SATA III",
+            "Read Speed": "Up to 500MB/s",
+            "Write Speed": "Up to 480MB/s",
+            "Form Factor": "2.5-inch"
+          },
+          "individualRating": 3.5,
+          "averageRating": 3.5,
+          "reviews": [
+            {
+              "username": "Noah",
+              "rating": 3.3,
+              "comment": "Basic SSD for budget builds."
+            },
+            {
+              "username": "Ava",
+              "rating": 3.7,
+              "comment": "Affordable and gets the job done."
+            }
+          ]
         }
       ]
     },
+    
     {
       "id": 6,
       "name": "Monitor",
@@ -221,7 +610,31 @@
           "category": "Monitor",
           "price": "$499.99",
           "status": "In Stock",
-          "rating": 4.9
+          "rating": 4.9,
+          "description": "Immerse yourself in stunning 4K gaming with this high-performance monitor.",
+          "keyFeatures": {
+            "Brand": "ExampleMonitors",
+            "Model": "4K Gaming Monitor 1",
+            "Display Size": "27 inches",
+            "Resolution": "4K Ultra HD",
+            "Refresh Rate": "144Hz",
+            "Response Time": "1ms",
+            "Panel Type": "IPS"
+          },
+          "individualRating": 4.9,
+          "averageRating": 4.9,
+          "reviews": [
+            {
+              "username": "Liam",
+              "rating": 5.0,
+              "comment": "Exceptional monitor for gaming and content creation."
+            },
+            {
+              "username": "Emma",
+              "rating": 4.8,
+              "comment": "Outstanding visuals and performance."
+            }
+          ]
         },
         {
           "id": 602,
@@ -230,7 +643,31 @@
           "category": "Monitor",
           "price": "$399.99",
           "status": "In Stock",
-          "rating": 4.5
+          "rating": 4.5,
+          "description": "Experience productivity and gaming on a spacious ultrawide display.",
+          "keyFeatures": {
+            "Brand": "ExampleMonitors",
+            "Model": "Ultrawide Monitor 1",
+            "Display Size": "34 inches",
+            "Resolution": "WQHD",
+            "Refresh Rate": "75Hz",
+            "Response Time": "5ms",
+            "Panel Type": "VA"
+          },
+          "individualRating": 4.5,
+          "averageRating": 4.5,
+          "reviews": [
+            {
+              "username": "Mason",
+              "rating": 4.4,
+              "comment": "Great for multitasking and some gaming."
+            },
+            {
+              "username": "Olivia",
+              "rating": 4.6,
+              "comment": "Good value for an ultrawide monitor."
+            }
+          ]
         },
         {
           "id": 603,
@@ -239,19 +676,68 @@
           "category": "Monitor",
           "price": "$249.99",
           "status": "Out of Stock",
-          "rating": 4.0
+          "rating": 4.0,
+          "description": "A reliable Full HD monitor for everyday tasks and entertainment.",
+          "keyFeatures": {
+            "Brand": "ExampleMonitors",
+            "Model": "Full HD Monitor 1",
+            "Display Size": "23.8 inches",
+            "Resolution": "Full HD",
+            "Refresh Rate": "60Hz",
+            "Response Time": "5ms",
+            "Panel Type": "IPS"
+          },
+          "individualRating": 4.0,
+          "averageRating": 4.0,
+          "reviews": [
+            {
+              "username": "William",
+              "rating": 3.8,
+              "comment": "Decent monitor for general use."
+            },
+            {
+              "username": "Ava",
+              "rating": 4.2,
+              "comment": "Good for office work and media consumption."
+            }
+          ]
         },
         {
           "id": 604,
           "image": "/images/monitor4.jpg",
-          "productName": "Full HD Monitor 1",
+          "productName": "Full HD Monitor 2",
           "category": "Monitor",
           "price": "$249.99",
           "status": "Out of Stock",
-          "rating": 4.0
+          "rating": 4.0,
+          "description": "An affordable Full HD monitor for various computing needs.",
+          "keyFeatures": {
+            "Brand": "ExampleMonitors",
+            "Model": "Full HD Monitor 2",
+            "Display Size": "21.5 inches",
+            "Resolution": "Full HD",
+            "Refresh Rate": "60Hz",
+            "Response Time": "5ms",
+            "Panel Type": "TN"
+          },
+          "individualRating": 4.0,
+          "averageRating": 4.0,
+          "reviews": [
+            {
+              "username": "James",
+              "rating": 3.8,
+              "comment": "Basic monitor for everyday tasks."
+            },
+            {
+              "username": "Sophia",
+              "rating": 4.2,
+              "comment": "Affordable and does the job."
+            }
+          ]
         }
       ]
     },
+    
     {
       "id": 7,
       "name": "GPU",
@@ -260,40 +746,132 @@
           "id": 701,
           "image": "/images/gpu1.jpg",
           "productName": "GPU 1",
-          "category": "Others",
+          "category": "GPU",
           "price": "$49.99",
           "status": "In Stock",
-          "rating": 4.2
+          "rating": 4.2,
+          "description": "An entry-level GPU for basic graphics and display needs.",
+          "keyFeatures": {
+            "Brand": "ExampleGPUs",
+            "Model": "GPU 1",
+            "Graphics Chipset": "Integrated",
+            "VRAM": "2GB DDR3",
+            "Ports": "HDMI, VGA, DVI",
+            "Low Profile": "Yes"
+          },
+          "individualRating": 4.2,
+          "averageRating": 4.2,
+          "reviews": [
+            {
+              "username": "Liam",
+              "rating": 4.0,
+              "comment": "Good for office PCs and simple tasks."
+            },
+            {
+              "username": "Emma",
+              "rating": 4.4,
+              "comment": "Affordable and works well for basic needs."
+            }
+          ]
         },
         {
           "id": 702,
           "image": "/images/gpu2.jpg",
           "productName": "GPU 2",
-          "category": "Others",
+          "category": "GPU",
           "price": "$79.99",
           "status": "In Stock",
-          "rating": 4.7
+          "rating": 4.7,
+          "description": "A mid-range GPU for gaming and graphics-intensive applications.",
+          "keyFeatures": {
+            "Brand": "ExampleGPUs",
+            "Model": "GPU 2",
+            "Graphics Chipset": "Dedicated",
+            "VRAM": "4GB GDDR5",
+            "Ports": "HDMI, DisplayPort, DVI",
+            "Low Profile": "No"
+          },
+          "individualRating": 4.7,
+          "averageRating": 4.7,
+          "reviews": [
+            {
+              "username": "Mason",
+              "rating": 4.5,
+              "comment": "Great GPU for gaming at a reasonable price."
+            },
+            {
+              "username": "Olivia",
+              "rating": 4.8,
+              "comment": "Smooth gaming experience and good value."
+            }
+          ]
         },
         {
           "id": 703,
           "image": "/images/gpu3.jpg",
           "productName": "GPU 3",
-          "category": "Others",
+          "category": "GPU",
           "price": "$99.99",
           "status": "Out of Stock",
-          "rating": 3.8
+          "rating": 3.8,
+          "description": "A budget GPU for basic gaming and multimedia tasks.",
+          "keyFeatures": {
+            "Brand": "ExampleGPUs",
+            "Model": "GPU 3",
+            "Graphics Chipset": "Dedicated",
+            "VRAM": "2GB GDDR5",
+            "Ports": "HDMI, DisplayPort, DVI",
+            "Low Profile": "No"
+          },
+          "individualRating": 3.8,
+          "averageRating": 3.8,
+          "reviews": [
+            {
+              "username": "William",
+              "rating": 3.7,
+              "comment": "Decent budget GPU for light gaming."
+            },
+            {
+              "username": "Ava",
+              "rating": 4.0,
+              "comment": "Affordable and suitable for basic gaming."
+            }
+          ]
         },
         {
           "id": 704,
           "image": "/images/gpu4.jpg",
-          "productName": "GPU 3",
-          "category": "Others",
+          "productName": "GPU 4",
+          "category": "GPU",
           "price": "$99.99",
           "status": "Out of Stock",
-          "rating": 3.8
+          "rating": 3.8,
+          "description": "Another budget GPU for entry-level gaming and multimedia tasks.",
+          "keyFeatures": {
+            "Brand": "ExampleGPUs",
+            "Model": "GPU 4",
+            "Graphics Chipset": "Dedicated",
+            "VRAM": "2GB GDDR5",
+            "Ports": "HDMI, DisplayPort, DVI",
+            "Low Profile": "No"
+          },
+          "individualRating": 3.8,
+          "averageRating": 3.8,
+          "reviews": [
+            {
+              "username": "James",
+              "rating": 3.7,
+              "comment": "Basic GPU for everyday use and light gaming."
+            },
+            {
+              "username": "Sophia",
+              "rating": 4.0,
+              "comment": "Affordable and does the job."
+            }
+          ]
         }
       ]
-    }
+    }    
   ],
   "featuredProducts": [
     {
